@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tolibov Farrux - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      body { background-color: #f8f9fa; }
+      .hero-section {
+        background: linear-gradient(135deg, #20c997, #0dcaf0);
+        color: white;
+        padding: 100px 0;
+        text-align: center;
+      }
+      footer { background-color: #343a40; }
+      .card {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="index.html">faruq</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+            <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="collections.html">Collections</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section">
+      <div class="container">
+        <h1>My Portfolio</h1>
+        <p class="lead">Projects and Achievements</p>
+      </div>
+    </section>
+
+    <main class="container py-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card p-4">
+            <h4>Full Stack Web App</h4>
+            <p>Created a finance tracking app for students using React and Node.js.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card p-4">
+            <h4>Photography Portfolio</h4>
+            <p>Captured amazing landscapes and city life shots around Uzbekistan.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-white text-center py-4 mt-5">
+      <p class="mb-0">© 2025 Tolibov Farrux. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
